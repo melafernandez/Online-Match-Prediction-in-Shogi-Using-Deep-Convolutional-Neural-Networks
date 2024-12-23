@@ -1,12 +1,3 @@
-Welcome to the repository for my published paper, "Online Match Prediction in Shogi using Deep Convolutional Neural Networks". This repository contains the code and scripts used to conduct the experiments and analyses discussed in the paper. It includes data preprocessing, interaction with SQL databases, and the implementation of the Deep Convolutional Neural Network (DCNN) for match prediction.
-
-**Overview
+**Data Manipulation for DCNN
 **
-- This project investigates the application of a Deep Convolutional Neural Network for predicting outcomes of Shogi matches based on historical game data. Key contributions include:
-
-- A novel feature extraction pipeline tailored for Shogi.
-
-- Integration of SQL databases for efficient data manipulation and retrieval.
-
-- Tracking and analyzing model training and performance using comet_ml.
-
+This branch contains programs designed to process and parse a large SQLite database containing approximately 1 million SFEN strings. These scripts efficiently extract, filter, and manipulate the SFEN data to prepare it for downstream analysis. The tools are optimized for handling large-scale queries and include detailed comments to guide their use. To run these programs, ensure that SQLite is installed and the database file is accessible. 
